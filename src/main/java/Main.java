@@ -12,8 +12,8 @@ public class Main {
         Apple product3 = new Apple(8, 60, Colour.GREEN, true);
         Food[] products = {product1, product2, product3};
         ShoppingCart cart = new ShoppingCart(products);
-        System.out.println(cart.getSumWithoutDiscount());
-        System.out.println(cart.getSumWithDiscount());
-        System.out.println(cart.getSumVegetarianWithoutDiscount());
+        System.out.println("Сумма покупки без скидки: " + cart.getSumWithoutDiscount());
+        System.out.println("Сумма покупки с скидкой: " + cart.getSumWithDiscount());
+        System.out.println("Сумма вегетарианской покупки без скидки: " + cart.getSumVegetarianWithoutDiscount());
     }
 }
